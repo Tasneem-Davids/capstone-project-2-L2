@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <h1
+    className="Heading"
+  >
+    Welcome to my iTunes Store and Apple Books Store search engine
+  </h1>
+  <h3>
+    Search anything you'd like and scroll right for more options. Have fun!
+  </h3>
+  <br />
+  <form
+    className=""
+  >
+    <img
+      className="search"
+      src="search.png"
+    />
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Search Library"
+      style={
+        Object {
+          "border": "2px solid violet",
+          "color": "black",
+          "marginBottom": "100px",
+          "marginLeft": "65px",
+          "width": "700px",
+        }
+      }
+      type="text"
+    />
+  </form>
+  <button
+    className="Submit btn btn-light"
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "border": "2px solid violet",
+      }
+    }
+    type="button"
+  >
+    Search
+  </button>
+  <br />
+  <div
+    className="Links"
+  >
+    <h5>
+      Click on the links below to visit the official sites
+    </h5>
+    <a
+      className="Link1"
+      href="https://www.apple.com/za/itunes/"
+    >
+      <img
+        className="Itunes"
+        src="itunes.jpg"
+      />
+    </a>
+    <a
+      href="https://www.apple.com/apple-books/"
+    >
+      <img
+        className="Apple"
+        src="apple.jpg"
+      />
+    </a>
+  </div>
+  <br />
+   
+  <div>
+    <h3>
+      Waiting for your request...
+    </h3>
+    <br />
+    <img
+      className="Loading"
+      src="loading.gif"
+    />
+  </div>
+</div>
+`;

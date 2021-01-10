@@ -1,0 +1,162 @@
+.App {/*The following is the css for the App.js file*/
+  text-align: center;
+  margin: 30px;
+}
+
+.Heading {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(250, 86, 122);
+  animation-name: heading;
+  animation-duration: 5s;
+}
+
+.Subheading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  margin-top: -20px;
+  margin-bottom: 60px;
+}
+
+@keyframes heading {
+  0%   {color: rgb(164, 123, 240);}
+  25%  {color: rgb(192, 96, 233);}
+  50%  {color: rgb(245, 101, 190);}
+  75%  {color: rgb(252, 125, 152);}
+  100% {color: rgb(250, 86, 122);}
+}
+
+.Link1 {
+  margin-right: 20px;
+}
+
+.Buttonn {
+  background-color: rgb(84, 165, 245);
+  border: rgb(216, 72, 168);
+  color: black;
+}
+
+.Play {
+  width: 35px;
+  height: 25px;
+  margin-top: 14px;
+  border-radius: 50%;
+}
+
+.Thumb {
+  width: 32px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.Itunes {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.Apple {
+  margin-top: 3px;
+  width: 33px;
+  height: 33px;
+}
+
+.Wait {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  margin-bottom: -10px;
+  font-size: 23px;
+}
+
+.Loading {
+  width: 260px;
+  height: 220px;
+}
+
+.Links {
+  margin-left:1000px;
+  margin-top: -170px;
+}
+
+.LinkHeading {
+  font-size: 18px;
+}
+
+.Favourites {
+  margin-top: -760px;
+  max-width: 370px;
+}
+
+.Result {
+  margin-top: -30px;
+  margin-left: 390px;
+}
+
+.TableR {
+  text-align: left;
+}
+
+.FavsHeading {
+  text-align: left;
+  font-size: 19px;
+  color: rgb(109, 195, 245);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Msg {
+  margin-top: 50px;
+  font-size: 24px;
+  color: rgb(190, 70, 245);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.NavProfile {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.Github {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.Div {
+  margin-top: 220px;
+}
+
+.Divv {
+  margin-top: 100px;
+}
+
+.LinkedIn {
+  width: 58px;
+  height: 32px;
+  margin-left: -18px;
+}
+
+.FavImg {
+  width: 30px;
+  height: 30px;
+}
+
+.FavSong {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(39, 133, 187);
+  margin-left: 35px;
+  margin-top: -25px;
+}
+
+.Delete {
+  margin-left: 5px;
+  width: 19px;
+  height: 19px;
+}
+
+.Select {
+  margin: 4px;
+  margin-left: -5px;
+}
