@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');/*I installed body parser to allow the
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
-app.use(helmet());/*I required and used helmet to secure the app*/
+/*app.use(helmet());*/
 
 app.get('/get/:name', function(req, res){/*This code is for fetching data from the api and sending it to the front end's matching fetch request. This required me to install node fetch.*/
     const searchRequest = req.params.name;/*Here I define searchrequest to be the name params that was declared on the front end*/
