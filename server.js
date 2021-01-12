@@ -23,6 +23,14 @@ app.get('/get/:name', function(req, res){/*This code is for fetching data from t
     });
 })
 
+const path = require("path");
+if (process.env.NODE_ENV === "production") {
+app.use(express.static("frontend/build"));
+app.get("*", (req, res) => {
+res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
+});
+}
+
 const PORT = process.env.PORT || 3004;/*Here I declare the port that should be used for the server. Its important for the 
 server and front end to open on different porst, however the proxy in the front-end package.json should match the server 
 port inorder for it to act as the server for the front end.*/
