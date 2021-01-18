@@ -24,5 +24,5 @@ As well as testing, I installed helmet and added it to the server side of the ap
 
 ## Link to Heroku deployed app.
 
-You can also visit the app (here)[] if you'd like. I deployed it using Heroku and GitHub.
+You can also visit the app [here](https://capstone-project-2-level-2.herokuapp.com/) if you'd like. I deployed it using Heroku and GitHub.
 
