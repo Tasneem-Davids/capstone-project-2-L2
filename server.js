@@ -15,9 +15,9 @@ app.use(
         defaultSrc: ["'self'", "'unsafe-inline'"],
         scriptSrc: ["'self'", "'unsafe-inline'"],
         imgSrc: ["'self'", "https://itunes.apple.com", "data:"],
-        frameSrc: ["'self'"],
+        frameSrc: ["'self'", "https://itunes.apple.com"],
         mediaSrc: ["'self'", "https://itunes.apple.com"],
-        objectSrc: ["'self'"],
+        objectSrc: ["'self'", "https://itunes.apple.com"],
         upgradeInsecureRequests: [],
       },
     })
