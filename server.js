@@ -14,7 +14,7 @@ app.use(
       directives: {
         defaultSrc: ["'self'", "'unsafe-inline'"],
         scriptSrc: ["'self'", "'unsafe-inline'"],
-        imgSrc: ["'self'", "https://itunes.apple.com", "data:"],
+        imgSrc: ["'self'", "https://itunes.apple.com/artworkUrl100", "data:"],
         frameSrc: ["'self'", "https://itunes.apple.com"],
         mediaSrc: ["'self'", "https://itunes.apple.com"],
         objectSrc: ["'self'", "https://itunes.apple.com"],
