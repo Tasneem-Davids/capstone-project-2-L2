@@ -4,11 +4,23 @@ const fetch = require('node-fetch');
 const helmet = require("helmet");
 const app = express();
 
-const bodyParser = require('body-parser');/*I installed body parser to allow the server to be able to interact with the front-end*/
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(bodyParser.json())
+/*I installed body parser to allow the server to be able to interact with the front-end*/
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json())
 
 /*app.use(helmet());*/
+app.use(
+    helmet.contentSecurityPolicy({
+      directives: {
+        defaultSrc: ["'self'", "'unsafe-inline'"],
+        scriptSrc: ["'self'", "'unsafe-inline'"],
+        imgSrc: ["'self'", "https://itunes.apple.com"],
+        objectSrc: ["'none'"],
+        upgradeInsecureRequests: [],
+      },
+    })
+  );
+
 
 app.get('/get/:name', function(req, res){/*This code is for fetching data from the api and sending it to the front end's matching fetch request. This required me to install node fetch.*/
     const searchRequest = req.params.name;/*Here I define searchrequest to be the name params that was declared on the front end*/
