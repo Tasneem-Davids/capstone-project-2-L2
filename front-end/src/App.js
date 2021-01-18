@@ -138,7 +138,7 @@ class App extends Component{
                 styling your webpage. I have had to use inline styling for most but not all, parts of the following 
                 code*/}
                 <Card bg={"white"} style={{width: "350px",height: "250px",marginLeft: "20px",marginTop: "100px",border: "1px solid white",marginBottom: "100px",textAlign: "left"}}>
-                    <Card.Img variant="top" src={result.artworkUrl100} style={{height: "200px",width: "200px",marginLeft: "45px",marginBottom: "30px"}}/>
+                    <Card.Img variant="top" alt={result.artworkUrl100} src={result.artworkUrl100} style={{height: "200px",width: "200px",marginLeft: "45px",marginBottom: "30px"}}/>
                     <Card.Body>
                         <Card.Title>{result.artistName}</Card.Title>
                         <Card.Text>
@@ -159,7 +159,7 @@ class App extends Component{
             }else if(result.kind === "feature-movie"){
                 return <td>
                 <Card bg={"white"} style={{width: "350px",height: "250px",marginLeft: "20px",marginTop: "100px",border: "1px solid white",marginBottom: "100px",textAlign: "left"}}>
-                    <Card.Img variant="top" src={result.artworkUrl100} style={{height: "200px",width: "200px",marginLeft: "45px",marginBottom: "30px"}}/>
+                    <Card.Img variant="top" alt={result.artworkUrl100} src={result.artworkUrl100} style={{height: "200px",width: "200px",marginLeft: "45px",marginBottom: "30px"}}/>
                     <Card.Body>
                         <Card.Title>{result.artistName}</Card.Title>
                         <Card.Text>
@@ -182,7 +182,7 @@ class App extends Component{
             }else if(result.wrapperType === "audiobook"){
                 return <td>
                 <Card bg={"white"} style={{width: "350px",height: "250px",marginLeft: "20px",marginTop: "100px",border: "1px solid white",marginBottom: "100px",textAlign: "left"}}>
-                    <Card.Img variant="top" src={result.artworkUrl100} style={{height: "200px",width: "200px",marginLeft: "45px",marginBottom: "30px"}}/>
+                    <Card.Img variant="top" alt={result.artworkUrl100} src={result.artworkUrl100} style={{height: "200px",width: "200px",marginLeft: "45px",marginBottom: "30px"}}/>
                     <Card.Body>
                         <Card.Title>{result.artistName}</Card.Title>
                         <Card.Text>
@@ -203,7 +203,7 @@ class App extends Component{
             }else if(result.kind === "podcast"){
                 return <td>
                 <Card bg={"white"} style={{width: "350px",height: "250px",marginLeft: "20px",marginTop: "100px",border: "1px solid white",marginBottom: "100px",textAlign: "left"}}>
-                    <Card.Img variant="top" src={result.artworkUrl100} style={{height: "200px",width: "200px",marginLeft: "45px",marginBottom: "30px"}}/>
+                    <Card.Img variant="top" alt={result.artworkUrl100} src={result.artworkUrl100} style={{height: "200px",width: "200px",marginLeft: "45px",marginBottom: "30px"}}/>
                     <Card.Body>
                         <Card.Title>{result.artistName}</Card.Title>
                         <Card.Text>
@@ -224,7 +224,7 @@ class App extends Component{
             }else if(result.kind === "tv-episode"){
                 return <td>
                 <Card bg={"white"} style={{width: "350px",height: "250px",marginLeft: "20px",marginTop: "100px",border: "1px solid white",marginBottom: "100px",textAlign: "left"}}>
-                    <Card.Img variant="top" src={result.artworkUrl100} style={{height: "200px",width: "200px",marginLeft: "45px",marginBottom: "30px"}}/>
+                    <Card.Img variant="top" alt={result.artworkUrl100} src={result.artworkUrl100} style={{height: "200px",width: "200px",marginLeft: "45px",marginBottom: "30px"}}/>
                     <Card.Body>
                         <Card.Title>{result.artistName}</Card.Title>
                         <Card.Text>
